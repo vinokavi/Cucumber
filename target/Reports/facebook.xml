@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="69.931565">
+    <testcase classname="To get solution of heathissues through healthcare" name="To get correct solution by searching HealthTopics" time="17.655216">
+        <system-out><![CDATA[Given User should launch the browser and load the browser...................passed
+When User should Search the correct drug in the seach box...................passed
+And User should click the GO button.........................................passed
+Then User should navigate to the credential page............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To get solution of heathissues through healthcare" name="To get correct solution by searching HealthTopics 2" time="13.737967">
+        <system-out><![CDATA[Given User should launch the browser and load the browser...................passed
+When User should searcH the correct drug in the seach box...................passed
+And User should click the GO button.........................................passed
+Then User should navigate to the credential page............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To get solution of heathissues through healthcare" name="To get correct solution by searching HealthTopics" time="11.20795">
+        <system-out><![CDATA[Given User should launch the browser and load the browser...................passed
+When User should click the Health Topics....................................passed
+And User should click blood,heart and Circulation...........................passed
+And User should click  Aortic Aneurysm......................................passed
+Then User should navigate to the given issue................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To get solution of heathissues through healthcare" name="To get solution of heathissues through healthcare" time="13.799768">
+        <system-out><![CDATA[Given User should launch the browser and load the browser...................passed
+When User should search incorrect problem in the seach box..................passed
+And User should click the GO button.........................................passed
+And User should print title.................................................passed
+Then User should navigate to the credential page............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To get solution of heathissues through healthcare" name="To get solution of heathissues through the healthcare" time="13.530664">
+        <system-out><![CDATA[Given User should launch the browser and load the browser...................passed
+When User should search the correct drug in the seach box "Vitamins"........passed
+And User should click the GO button.........................................passed
+Then User should navigate to the credential page............................passed
+]]></system-out>
+    </testcase>
+</testsuite>

@@ -1,0 +1,752 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 71925900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should launch the browser and load the browser",
+            "match": {
+              "location": "MedHealthStepDefinition.user_should_launch_the_browser_and_load_the_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-09-11T17:55:07.802Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8914243300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 147933800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeSec1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 255000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeSec2()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "To get correct solution by searching HealthTopics",
+        "description": "",
+        "id": "to-get-solution-of-heathissues-through-healthcare;to-get-correct-solution-by-searching-healthtopics",
+        "after": [
+          {
+            "result": {
+              "duration": 416800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterSec()"
+            }
+          },
+          {
+            "result": {
+              "duration": 304100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterSec1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 734417100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterSec2(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 354847500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should Search the correct drug in the seach box",
+            "match": {
+              "location": "DataTableStepDefinition.userShouldSearchTheCorrectDrugInTheSeachBox(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Herbal Medicine",
+                  "Cough Medicine"
+                ]
+              },
+              {
+                "cells": [
+                  "Blood Thinners",
+                  "Cold Medicine"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7226431700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should click the GO button",
+            "match": {
+              "location": "MedHealthStepDefinition.user_should_click_the_GO_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32511300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User should navigate to the credential page",
+            "match": {
+              "location": "MedHealthStepDefinition.user_should_navigate_to_the_credential_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12247900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should launch the browser and load the browser",
+            "match": {
+              "location": "MedHealthStepDefinition.user_should_launch_the_browser_and_load_the_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-09-11T17:55:25.470Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6257757800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 143699100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeSec1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 148800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeSec2()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "To get correct solution by searching HealthTopics",
+        "description": "",
+        "id": "to-get-solution-of-heathissues-through-healthcare;to-get-correct-solution-by-searching-healthtopics",
+        "after": [
+          {
+            "result": {
+              "duration": 189200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterSec()"
+            }
+          },
+          {
+            "result": {
+              "duration": 228800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterSec1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 703258400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterSec2(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 243792900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User should searcH the correct drug in the seach box",
+            "match": {
+              "location": "DataTableStepDefinition.userShouldSearcHTheCorrectDrugInTheSeachBox(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Medicine",
+                  "Scans"
+                ]
+              },
+              {
+                "cells": [
+                  "Pain Killer",
+                  "Ascorbic"
+                ]
+              },
+              {
+                "cells": [
+                  "Fracture",
+                  "MRI Scans"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6330357400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User should click the GO button",
+            "match": {
+              "location": "MedHealthStepDefinition.user_should_click_the_GO_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28922300,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User should navigate to the credential page",
+            "match": {
+              "location": "MedHealthStepDefinition.user_should_navigate_to_the_credential_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "To get solution of heathissues through healthcare",
+    "description": "",
+    "id": "to-get-solution-of-heathissues-through-healthcare",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFiles/DataTable.feature",
+    "tags": [
+      {
+        "name": "@Sanity",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4013300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should launch the browser and load the browser",
+            "match": {
+              "location": "MedHealthStepDefinition.user_should_launch_the_browser_and_load_the_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-09-11T17:55:39.210Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6730867700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 157312300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeSec1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 117200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeSec2()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "To get correct solution by searching HealthTopics",
+        "description": "",
+        "id": "to-get-solution-of-heathissues-through-healthcare;to-get-correct-solution-by-searching-healthtopics",
+        "after": [
+          {
+            "result": {
+              "duration": 108500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterSec()"
+            }
+          },
+          {
+            "result": {
+              "duration": 121600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterSec1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 743663700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterSec2(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 194696800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should click the Health Topics",
+            "match": {
+              "location": "MedHealthStepDefinition.user_should_click_the_Health_Topics()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1259191100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should click blood,heart and Circulation",
+            "match": {
+              "location": "MedHealthStepDefinition.user_should_click_blood_heart_and_Circulation()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1081787300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should click  Aortic Aneurysm",
+            "match": {
+              "location": "MedHealthStepDefinition.user_should_click_Aortic_Aneurysm()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1014983800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should navigate to the given issue",
+            "match": {
+              "location": "MedHealthStepDefinition.user_should_navigate_to_the_given_issue()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2431600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should launch the browser and load the browser",
+            "match": {
+              "location": "MedHealthStepDefinition.user_should_launch_the_browser_and_load_the_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-09-11T17:55:50.420Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7071953000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 159670200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeSec1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 111800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeSec2()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "To get solution of heathissues through healthcare",
+        "description": "",
+        "id": "to-get-solution-of-heathissues-through-healthcare;to-get-solution-of-heathissues-through-healthcare",
+        "after": [
+          {
+            "result": {
+              "duration": 105400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterSec()"
+            }
+          },
+          {
+            "result": {
+              "duration": 92400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterSec1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 665463500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterSec2(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 236325900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User should search incorrect problem in the seach box",
+            "match": {
+              "location": "MedHealthStepDefinition.user_should_search_incorrect_problem_in_the_seach_box()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5623395600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User should click the GO button",
+            "match": {
+              "location": "MedHealthStepDefinition.user_should_click_the_GO_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15322500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User should print title",
+            "match": {
+              "location": "MedHealthStepDefinition.userShouldPrintTitle()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11641300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User should navigate to the credential page",
+            "match": {
+              "location": "MedHealthStepDefinition.user_should_navigate_to_the_credential_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2901400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should launch the browser and load the browser",
+            "match": {
+              "location": "MedHealthStepDefinition.user_should_launch_the_browser_and_load_the_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-09-11T17:56:04.221Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6247138200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 136131300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeSec1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 150900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeSec2()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "To get solution of heathissues through the healthcare",
+        "description": "",
+        "id": "to-get-solution-of-heathissues-through-healthcare;to-get-solution-of-heathissues-through-the-healthcare;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 126700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterSec()"
+            }
+          },
+          {
+            "result": {
+              "duration": 84000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterSec1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 629718500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterSec2(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 284540900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User should search the correct drug in the seach box \"Vitamins\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Vitamins\"",
+                  "offset": 53
+                }
+              ],
+              "location": "MedHealthStepDefinition.userShouldSearchTheCorrectDrugInTheSeachBox(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6195587200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User should click the GO button",
+            "match": {
+              "location": "MedHealthStepDefinition.user_should_click_the_GO_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17702600,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User should navigate to the credential page",
+            "match": {
+              "location": "MedHealthStepDefinition.user_should_navigate_to_the_credential_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "To get solution of heathissues through healthcare",
+    "description": "",
+    "id": "to-get-solution-of-heathissues-through-healthcare",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFiles/Medhealth.feature",
+    "tags": []
+  }
+]
